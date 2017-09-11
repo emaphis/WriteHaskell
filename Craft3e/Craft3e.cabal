@@ -41,7 +41,8 @@ library
     old-locale == 1.0.*,
     time >= 1.1 && < 2.0,
     mtl >= 1.1 && < 2.3,
-    HUnit == 1.2.*
+    -- update Hunit for GHC 8.0.2
+    HUnit == 1.5.*
   
   exposed-modules:
     
