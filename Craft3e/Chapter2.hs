@@ -29,3 +29,11 @@ ex2 = double 320 - square (size - double 6)
 --  4 double
 --  4 5
 --  4 `div` (3*2-6)
+
+add3 :: Integer -> Integer
+add3 n = n + 3
+
+add6 n = add3 (add3 n)
+
+test1 :: IO ()
+test1 = putStrLn (show (add6 3))

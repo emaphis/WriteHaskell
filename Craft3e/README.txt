@@ -1,5 +1,11 @@
 README 
 
+
+Chapter 2 exercises  - UsePictures.hs
+
+
+***
+
 Code for Haskell the Craft of Functional Programming, 3rd ed.
 
 Files for chapter N are in ChapterN.hs except
